@@ -11,11 +11,13 @@ function $id(id) {
 
 function start() {
     timer = true;
+    document.getElementById("start").disabled=true;
     stopwatch();
 }
 
 function stop() {
     timer = false;
+    document.getElementById("start").disabled=false;
 
 }
 
